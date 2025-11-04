@@ -1,0 +1,134 @@
+    ul { 
+        font-family: helvetica;
+    }
+    /*ul = seletor que seleciona o elemento HTML <ul> ao qual aplicará os estilos. 
+    O nome da propriedade é font-family e o valor é helvetica
+    Uma ID é usada para definir o estilo de um elemento, enquanto classes podem definir o estilo de vários elementos.*/
+
+    li {
+
+    list-style: circle;
+
+    }
+
+    .list {
+
+    list-style: square;
+
+    } /* lista do seletor de classe tem um prefixo de período*/ 
+
+    /*#msg {
+
+    font-family: monospace;
+
+    }  seletor de ID é msg e tem um prefixo de sinal de libra */ 
+
+    :root {
+        --green: #00FF00; 
+        --white: #ffffff; 
+        --black: #000000; 
+        --blue: #0011ff; 
+
+    }
+
+    .back {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: 
+            linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)),
+            url('./img/pexels-go0fyy-15373269.jpg') no-repeat center center;
+        background-size: cover;
+        z-index: -1; /* ⬅️ Fica ATRÁS de tudo */
+    }
+
+    .fotoZ, h1 {
+        text-overflow: var(--blue);
+        filter: brightness(20);
+        position: relative; /* ⬅️ Garante que fique NA FRENTE */
+        z-index: 2;
+    }
+
+
+
+    /* Seu header também precisa ficar na frente */
+    header {
+        position: relative;
+        z-index: 2;
+    }
+
+        
+
+    .Cursos{
+        position: absolute; 
+        top: 10px; 
+        left: 1150px;
+        height: 50px; 
+        width: 50px;
+        border-radius: none;
+        border: none; 
+        border-color: var(--bg);
+        color: var(--black);
+        background: var(--bg);
+        font-family: 'Poppins', sans-serif; 
+        font-size: 20px;
+        cursor: pointer;
+    }
+    .Cursos:focus{
+        outline-style: none;
+    }
+
+    .Sobre{
+        position: absolute; 
+        top: 10px; 
+        left: 1350px;
+        height: 50px; 
+        width: 50px;
+        border-radius: none;
+        border: none; 
+        border-color: var(--bg);
+        color: var(--black);
+        background: var(--bg);
+        font-family: 'Poppins', sans-serif; 
+        font-size: 20px;
+        cursor: pointer;
+
+    }
+
+    .Titulo{
+        text-align: left;
+        font-weight: 500;
+        line-height:55px; /*como mudar a altura do texto, sem ser por height*/
+        font-size: 25px;
+        font-family: 'Montserrat', sans-serif;
+        left: 71px;
+        position: relative;
+        top: 1px; 
+        
+    }
+    .header {
+        background-color: #fff;
+        box-shadow: 4px 4px 10px rgba(0,0,0,0.1);
+        border-bottom: 1px solid #fffdfd;
+        left: 0; 
+        position: fixed;
+        width: 100%;
+        top: 0;
+        z-index: 200;
+        margin: 0;
+        padding: 0;
+    }
+
+    .Titulo img {
+        width: 50px;
+        position: absolute;
+        bottom: -10px; 
+        right: 1540px;  
+        top: auto; 
+        left: auto; 
+    }
+
+
+

@@ -1,0 +1,561 @@
+.poppins-semibold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: xx-large;
+            line-height: 1.6;
+            text-align: center;
+            font-size: 50px;
+            
+            padding: 0;
+            margin: 0; 
+            position: relative;
+            top: 120px;
+}
+ 
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+ html {
+    cursor: url('./img/cursor.png'), auto;
+  }
+
+
+body {
+            background-color: white;
+            padding-top: 80px;
+            
+        }
+
+       /* .Logo {
+        position: absolute;
+        text-align: left;
+        font-weight: 500;
+        height:10px ; como mudar a altura do texto, sem ser por height
+        font-size: 25px;
+        font-family: 'Montserrat', sans-serif;
+        margin-left: 45px;  
+        top: 33px; 
+        }*/
+           
+        
+        .Subtitulo{
+            font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+            position: absolute;
+            text-align: center;
+            font-size: 30px;
+            top: 400px ;
+            left: 320px; 
+        }
+
+        
+.caixamenor{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border: 1px solid #777879;
+    border-radius: 8px;
+    padding: 2px 5px;
+    width: auto;
+    height: 20px;
+    font-size: 15px;
+    position: relative;
+    top: 120px; 
+}
+.Caixa1{
+            position:  relative;
+
+            left: 80px;
+            border: 1px solid rgb(0, 0, 0);
+            padding: 80px 20px 20px 20px; 
+            border-radius: 15px;
+            width: 650px;
+            top: 535px;
+            display: flex;
+            flex-direction: column;  
+            height: 470px;
+            
+        }
+
+        * {
+    box-sizing: border-box;
+}
+.titulo {
+
+font-family: 'Poppins', sans-serif;
+font-size: 25px;    
+position: relative;
+line-height: 30px;
+top: 110px;
+
+}
+.container-caixas{
+    height: 20px;
+    border-radius: 8px;
+    background: white;  
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    
+        
+}
+.comecar { 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border: 1px solid #777879;
+    border-radius: 7px;
+    width: 180px;
+    background-color: black;
+    height: 45px;
+    color:#ffffff;
+    font-size: 15px;   
+    font-family:'Poppins', sans-serif;
+    position: relative;
+    margin: 20px;
+    top: 100px; 
+    left: 110px; 
+
+}
+.comecar a {
+    color: #ffffff; 
+    text-decoration: none; 
+}
+.container-slide0 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh;
+    gap: 1rem;
+
+   
+}
+
+.container-images0 {
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    width: 270px;
+    bottom: 208px;
+    right: 400px; 
+    
+
+}
+
+.slide {
+    display: none;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 200px;
+} 
+.slide.active{
+    display: block; 
+}   
+.slide img {
+    position: relative;
+    width: 300px;
+    border-radius: 15px 15px 0px 0px; 
+    height: 150px;
+    top: 1px;
+    right: -10px;
+
+}
+
+                                    
+#botao-volta, #botao-ida {
+    width: 40px;
+    height: 30px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+#botao-volta img, #botao-ida img {
+    width: 80%;
+    height: 100%;
+    
+}
+
+#botao-volta{
+    position: relative;
+    right: 820px;
+    bottom: 80px;
+    transform: rotate(180deg);
+}
+#botao-ida {
+    position: relative; 
+    right: 180px; 
+    bottom: 80px; 
+}
+.descricao {
+    position: relative; 
+    width: 600px;
+    right: 65px; 
+    top: 85px;  
+    font-size: 20px;
+    font-family:'Poppins', sans-serif;
+}   
+
+
+
+.Cursos{
+    position: absolute; 
+    top: 10px; 
+    left: 1150px;
+    height: 50px; 
+    width: 50px;
+    border-radius: none;
+    border: none; 
+    border-color: var(--bg);
+    color: var(--blue);
+    background: var(--bg);
+    font-family: 'Poppins', sans-serif; 
+    font-size: 20px;
+    cursor: pointer;
+}
+.Cursos:focus{
+    outline-style: none;
+}
+
+.Sobre{
+    position: absolute; 
+    top: 10px; 
+    left: 1350px;
+    height: 50px; 
+    width: 50px;
+    border-radius: none;
+    border: none; 
+    border-color: var(--bg);
+    color: var(--blue);
+    background: var(--bg);
+    font-family: 'Poppins', sans-serif; 
+    font-size: 20px;
+    cursor: pointer;
+
+}
+
+.Logo a {
+    color:rgb(0, 0, 0);
+    text-decoration: none;  
+}
+
+
+
+.Caixa2 {
+    position:  relative;
+    left: 800px;
+    border: 1px solid rgb(0, 0, 0);
+    padding: 80px 20px 20px 20px; 
+    border-radius: 15px;
+    width: 650px;
+    bottom: 712px; 
+    display: flex;
+    flex-direction: column;  
+    height: 470px;
+}
+* {
+    box-sizing: border-box;
+}
+.titulo2 {
+font-family: 'Poppins', sans-serif;
+font-size: 20px;    
+position: relative;
+line-height: 30px;
+top: 110px;
+
+} 
+
+.container-slide1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh;
+    gap: 1rem;
+
+   
+}
+
+.container-images1 {
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    width: 230px;
+    bottom: 1470px;
+    left: 327px; 
+    
+
+}
+
+.slide {
+    display: none;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 200px;
+} 
+.slide.active{
+    display: block; 
+}   
+.slide img {
+    position: relative;
+    width: 100%;
+    border-radius: 15px 15px 0px 0px; 
+    height: 150px;
+    top: 25px;
+    left: 100px; 
+
+}
+
+#botao-volta1, #botao-ida1 {
+    width: 40px;
+    height: 30px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+#botao-volta1 img, #botao-ida1 img {
+    width: 80%;
+    height: 100%;
+    
+}
+
+#botao-volta1{
+    position: relative;
+    right: 80px;   
+    bottom: 1325px;
+    transform: rotate(180deg);
+}
+#botao-ida1 {
+    position: relative; 
+    left: 565px; 
+    bottom: 1325px; 
+}
+
+.container-images1 .descricao {
+    right: 95px; 
+    width: 500px;
+    top: 100px; 
+   
+
+}
+
+.Caixa3 {
+    position:  relative;
+    left: 800px;
+    border: 1px solid rgb(0, 0, 0);
+    padding: 80px 20px 20px 20px; 
+    border-radius: 15px;
+    width: 650px;
+    bottom: 1425px; 
+    display: flex;
+    flex-direction: column;  
+    height: 470px;
+}
+* {
+    box-sizing: border-box;
+}
+
+
+.titulo3 {
+font-family: 'Poppins', sans-serif;
+font-size: 20px;    
+position: relative;
+line-height: 30px;
+top: 110px;
+
+} 
+
+.container-slide2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh;
+    gap: 1rem;
+
+   
+}
+
+.container-images2 {
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    width: 270px;
+    bottom: 2170px;
+    left: 315px; 
+    
+
+}
+
+
+.slide {
+    display: none;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 200px;
+} 
+.slide.active{
+    display: block; 
+}   
+.slide img {
+    position: relative;
+    width: 90%;
+    border-radius: 15px 15px 0px 0px; 
+    height: 150px;
+    top: 25px;
+    left: 120px; 
+
+}
+
+#botao-volta2, #botao-ida2 {
+    width: 40px;
+    height: 30px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+#botao-volta2 img, #botao-ida2 img {
+    width: 80%;
+    height: 100%;
+    
+}
+
+#botao-volta2{
+    position: relative;
+    left: -97px;
+    bottom: 2034px;
+    transform: rotate(180deg);
+}
+#botao-ida2 {
+    position: relative; 
+    left: 540px; 
+    bottom: 2034px; 
+}   
+
+
+
+.titulo4 {
+
+font-family: 'Poppins', sans-serif;
+font-size: 25px;    
+position: relative;
+line-height: 30px;
+top: 110px;
+
+}
+
+.Caixa4{
+            position:  relative;
+            left: 80px;
+            border: 1px solid rgb(0, 0, 0);
+            padding: 80px 20px 20px 20px; 
+            border-radius: 15px;
+            width: 650px;
+            bottom: 2670px; 
+            display: flex;
+            flex-direction: column;  
+            height: 470px;
+            
+        }
+
+        * {
+    box-sizing: border-box;
+}
+
+
+.titulo4 {
+font-family: 'Poppins', sans-serif;
+font-size: 20px;    
+position: relative;
+line-height: 30px;
+top: 110px;
+
+} 
+
+.container-slide3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh;
+    gap: 1rem;
+
+   
+}
+
+.container-images3 {
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    width: 220px;
+    bottom: 3440px;
+    right: 415px; 
+    
+
+}
+.container-images3 .descricao {
+    right: 80px; 
+    width: 500px;
+    top: 110px; 
+   
+
+}
+
+.slide {
+    display: none;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 200px;
+} 
+.slide.active{
+    display: block; 
+}   
+.slide img {
+    width: 100%;
+    border-radius: 15px 15px 0px 0px; 
+    height: 150px;
+    margin-top: 25px;
+
+}
+
+#botao-volta3, #botao-ida3 {
+    width: 40px;
+    height: 30px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+#botao-volta3 img, #botao-ida3 img {
+    width: 80%;
+    height: 100%;
+    
+}
+
+#botao-volta3{
+    position: relative;
+    right: 794px;
+    bottom: 3280px;
+    transform: rotate(180deg);
+}
+#botao-ida3 {
+    position: relative; 
+    right: 155px; 
+    bottom: 3280px; 
+}
+
+
